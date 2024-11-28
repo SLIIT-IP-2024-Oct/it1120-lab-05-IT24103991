@@ -19,7 +19,7 @@ public class IT24103991Lab5Q1 {
         int smallest = num1;
         int largest = num1;
         
-        // Find the smallest number
+        
         if (num2 < smallest) {
             smallest = num2;
         }
@@ -27,7 +27,6 @@ public class IT24103991Lab5Q1 {
             smallest = num3;
         }
 
-        // Find the largest number
         if (num2 > largest) {
             largest = num2;
         }
@@ -35,8 +34,8 @@ public class IT24103991Lab5Q1 {
             largest = num3;
         }
         
-        System.out.println("The smallest number is: " + smallest);
-        System.out.println("The largest number is: " + largest);
+        System.out.println("smallest number: " + smallest);
+        System.out.println("largest number is: " + largest);
 
         
     }
