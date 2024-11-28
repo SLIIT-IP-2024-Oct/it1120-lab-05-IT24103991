@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class IT24103991lab5Q3 {
     
-    private static final double ROOM_CHARGE_PER_DAY = 48000.00;
-    private static final int MIN_DAY = 1;
-    private static final int MAX_DAY = 31;
-    private static final int DISCOUNT_3_TO_4_DAYS = 10;   
-    private static final int DISCOUNT_5_OR_MORE_DAYS = 20; 
+    public static final double ROOM_CHARGE_PER_DAY = 48000.00;
+    public static final int MIN_DAY = 1;
+    public static final int MAX_DAY = 31;
+    public static final int DISCOUNT_3_TO_4_DAYS = 10;   
+    public static final int DISCOUNT_5_OR_MORE_DAYS = 20; 
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
